@@ -1,0 +1,50 @@
+ref-pman.txt  pman 用の ref ソース
+
+Version: 0.0.1
+Author : soh335 <sugarbabe335@gmail.com>
+License: クリエイティブ・コモンズの表示 2.1 日本ライセンス
+         <http://creativecommons.org/licenses/by/2.1/jp/>
+
+==============================================================================
+目次						*ref-pman-contents*
+
+概要				|ref-pman-introduction|
+カスタマイズ			|ref-pman-customizing|
+更新履歴			|ref-pman-changelog|
+
+
+==============================================================================
+概要						*ref-pman-introduction*
+
+*ref-pman* は pman コマンド用の |ref| ソースです。pman は Unix 系 OS でPHP
+マニュアルを表示するコマンドです。
+
+*ref-pman* は *ref-man* と *ref-phpmanual* を参考に作られました。
+
+要件:
+- |ref| 0.4.0 以降
+- pman
+
+
+
+==============================================================================
+カスタマイズ					*ref-pman-customizing*
+
+g:ref_pman_cmd					*g:ref_pman_cmd*
+			man コマンドを指定します。コマンドとその引数を含む
+			|List| も指定できます。
+			デフォルト値は、実行可能ならば "pman" です。そうでな
+			ければ "" です。
+			Note: MacVim を使ってる場合、以下のようにしてダミーの
+			ページャを設定する必要があるかもしれません。 >
+			let g:ref_pman_cmd = "pman -P cat"
+
+
+==============================================================================
+更新履歴					*ref-pman-changelog*
+
+0.0.1	2011-06-29
+	- 初版。
+
+==============================================================================
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl

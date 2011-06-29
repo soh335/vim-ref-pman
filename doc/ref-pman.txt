@@ -1,0 +1,53 @@
+*ref-pman.txt*	A ref source for pman.
+
+Version: 0.0.1
+Author : soh335 <sugarbabe335@gmail.com>
+License: Creative Commons Attribution 2.1 Japan License
+         <http://creativecommons.org/licenses/by/2.1/jp/deed.en>
+
+==============================================================================
+CONTENTS					*ref-pman-contents*
+
+INTRODUCTION			|ref-pman-introduction|
+CUSTOMIZING			|ref-pman-customizing|
+CHANGELOG			|ref-pman-changelog|
+
+
+==============================================================================
+INTRODUCTION					*ref-pman-introduction*
+
+*ref-pman* is a source for |ref| to pman command.  pman is a command to view
+php manual pages on UNIX-like operating systems.
+
+*ref-pman* use *ref-man* and *ref-phpmanual* as reference.
+
+Requirements:
+- |ref| 0.4.0 or later
+- pman
+
+
+
+==============================================================================
+CUSTOMIZING					*ref-pman-customizing*
+
+g:ref_pman_cmd					*g:ref_pman_cmd*
+			Specifies the pman command.  This allows a |List| that
+			includes command and arguments.
+			The default value is "pman" if it is executable.
+			Otherwise, it is "".
+			Note: If you are a MacVim user, you may want to
+			specify a dummy pager of man command with the
+			following line in your ~/.vimrc. >
+			let g:ref_man_cmd = "man -P cat"
+
+
+==============================================================================
+CHANGELOG					*ref-pman-changelog*
+
+0.0.1	2011-06-29
+	- Initial version.
+
+
+==============================================================================
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl
+
