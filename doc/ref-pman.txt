@@ -19,7 +19,7 @@ INTRODUCTION					*ref-pman-introduction*
 *ref-pman* is a source for |ref| to pman command.  pman is a command to view
 php manual pages on UNIX-like operating systems.
 
-*ref-pman* use *ref-man* and *ref-phpmanual* as reference.
+ref-pman use |ref-man| and |ref-phpmanual| as reference.
 
 Requirements:
 - |ref| 0.4.0 or later
@@ -38,7 +38,7 @@ g:ref_pman_cmd					*g:ref_pman_cmd*
 			Note: If you are a MacVim user, you may want to
 			specify a dummy pager of man command with the
 			following line in your ~/.vimrc. >
-			let g:ref_man_cmd = "man -P cat"
+			let g:ref_pman_cmd = "pman -P cat"
 
 
 ==============================================================================

@@ -1,4 +1,4 @@
-ref-pman.txt  pman 用の ref ソース
+*ref-pman.txt*  pman 用の ref ソース
 
 Version: 0.0.1
 Author : soh335 <sugarbabe335@gmail.com>
@@ -19,7 +19,7 @@ License: クリエイティブ・コモンズの表示 2.1 日本ライセンス
 *ref-pman* は pman コマンド用の |ref| ソースです。pman は Unix 系 OS でPHP
 マニュアルを表示するコマンドです。
 
-*ref-pman* は *ref-man* と *ref-phpmanual* を参考に作られました。
+ref-pman は |ref-man| と |ref-phpmanual| を参考に作られました。
 
 要件:
 - |ref| 0.4.0 以降
